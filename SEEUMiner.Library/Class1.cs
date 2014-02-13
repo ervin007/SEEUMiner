@@ -7,7 +7,7 @@ namespace SEEUMiner.Library
 {
     public class Class1
     {
-        //this is a test class
+        //CTOR
         public Class1()
         {
 
