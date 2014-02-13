@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libraries", "Libraries", "{A725B23A-670D-4403-AAAE-36A42A7EB5A6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{2F420F6C-D3ED-4397-B80F-EC09E9C3AF55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEEUMiner.App", "SEEUMiner.App\SEEUMiner.App.csproj", "{01D68E33-9B13-4244-9910-A453E9A9FB18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEEUMiner.Library", "SEEUMiner.Library\SEEUMiner.Library.csproj", "{9AA895DD-1C85-4ACC-9747-989D427AA34F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01D68E33-9B13-4244-9910-A453E9A9FB18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01D68E33-9B13-4244-9910-A453E9A9FB18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01D68E33-9B13-4244-9910-A453E9A9FB18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01D68E33-9B13-4244-9910-A453E9A9FB18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AA895DD-1C85-4ACC-9747-989D427AA34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AA895DD-1C85-4ACC-9747-989D427AA34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AA895DD-1C85-4ACC-9747-989D427AA34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AA895DD-1C85-4ACC-9747-989D427AA34F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9AA895DD-1C85-4ACC-9747-989D427AA34F} = {A725B23A-670D-4403-AAAE-36A42A7EB5A6}
+		{01D68E33-9B13-4244-9910-A453E9A9FB18} = {2F420F6C-D3ED-4397-B80F-EC09E9C3AF55}
+	EndGlobalSection
+EndGlobal
