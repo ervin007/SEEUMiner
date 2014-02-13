@@ -8,5 +8,9 @@ namespace SEEUMiner.Library
     public class Class1
     {
         //this is a test class
+        public Class1()
+        {
+
+        }
     }
 }
