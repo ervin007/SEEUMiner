@@ -12,5 +12,8 @@ namespace SEEUMiner.Library
         {
 
         }
+        void Test()
+        { 
+        } 
     }
 }
