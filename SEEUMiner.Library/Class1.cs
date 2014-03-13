@@ -11,6 +11,7 @@ namespace SEEUMiner.Library
         public Class1()
         {
          //   fdsfsd
+            //kr19602
         }
     }
 }
