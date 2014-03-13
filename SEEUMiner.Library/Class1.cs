@@ -10,7 +10,7 @@ namespace SEEUMiner.Library
         //CTOR
         public Class1()
         {
-
+         //   fdsfsd
         }
     }
 }
