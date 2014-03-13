@@ -14,6 +14,7 @@ namespace SEEUMiner.Library
         }
         void Test()
         { 
+            //this is a test method
         } 
     }
 }
