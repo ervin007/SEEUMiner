@@ -12,6 +12,7 @@ namespace SEEUMiner.Library
         {
          //   fdsfsd
             //kr19602
+            //kr19602
         }
     }
 }
