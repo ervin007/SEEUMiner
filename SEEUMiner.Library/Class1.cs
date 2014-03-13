@@ -14,5 +14,9 @@ namespace SEEUMiner.Library
             //kr19602
             //kr19602
         }
+        void Test()
+        { 
+            //this is a test method
+        } 
     }
 }
