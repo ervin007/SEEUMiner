@@ -5,11 +5,11 @@ using System.Text;
 
 namespace SEEUMiner.Library
 {
-    public class Statistics
+    public class DescriptiveStatistics
     {
         double[] array_items;
 
-        public Statistics(double[] items)
+        public DescriptiveStatistics(double[] items)
         {
             array_items = items;
             Array.Sort(array_items);
@@ -36,7 +36,23 @@ namespace SEEUMiner.Library
 
         public double Median()
         {
-            return 0;
+            int pozita;
+            double median;
+            if (array_items.Length % 2 == 1)
+            {
+                
+                pozita = (int)Math.Ceiling((double)array_items.Length / 2) - 1;
+                median = array_items[pozita];
+            }
+            else //rasti cift
+            {
+                pozita = array_items.Length / 2;
+                median = (array_items[pozita - 1] + array_items[pozita]) / 2;
+            }
+
+            return median;
+
+
         }
 
         public double Percentile(int n)

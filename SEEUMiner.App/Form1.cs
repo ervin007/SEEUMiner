@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SEEUMiner.Library;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -14,6 +15,29 @@ namespace SEEUMiner.App
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string[] array = txtItems.Text.Split(',');
+
+            //double[] dArray = Array.ConvertAll(array, Double.Parse);
+
+            //DescriptiveStatistics s = new DescriptiveStatistics(dArray);
+
+            //MessageBox.Show("Mesatarja: " + s.Average().ToString());
+
+            //MessageBox.Show("Median:" + s.Median().ToString());
+
+            CategoricalStatistics s = new CategoricalStatistics(array);
+
+            foreach (KeyValuePair<object, int> kv in s.Frequency())
+            {
+                MessageBox.Show(kv.Key.ToString() + " - " + kv.Value.ToString());
+
+            }
+            
+
         }
     }
 }
