@@ -12,21 +12,26 @@ namespace SEEUMiner.Library
         public Statistics(double[] items)
         {
             array_items = items;
-            
+            Array.Sort(array_items);
         }
         public double Min()
         {
-            return 0;
+            return array_items[0];
         }
 
         public double Max()
         {
-            return 0;
+            return array_items[array_items.Length];
         }
 
         public double Average()
         {
-            return 0;
+            double s = 0;
+            foreach (double el in array_items)
+                s += el;
+            return s / array_items.Length;
+
+            //return array_items.average();
         }
 
         public double Median()
