@@ -78,6 +78,7 @@ namespace SEEUMiner.Library
         
         // nuk e bojna per lek PO PA LEK SE BOJNA
         //fk
+        //kush o?
         public double StandardDeviationS()
         {
             double mean = Average();
