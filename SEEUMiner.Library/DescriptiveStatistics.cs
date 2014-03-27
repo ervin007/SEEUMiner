@@ -77,7 +77,7 @@ namespace SEEUMiner.Library
         }
         //someone was here
         //someone noticed this :P youre dead
-        //o algent, o pick none
+        //REMOVED FOR INAPROPRIATE LANGUAGE
 
         public double StandardDeviationS()
         {
