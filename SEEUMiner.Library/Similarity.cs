@@ -5,6 +5,9 @@ using System.Text;
 
 namespace SEEUMiner.Library
 {
+    /// <summary>
+    /// This class implements similarity measures
+    /// </summary>
     public class Similarity
     {
         public double EuclidianDistance(double[] firstObservation, double[] secondObservation)
