@@ -5,6 +5,9 @@ using System.Text;
 
 namespace SEEUMiner.Library
 {
+    /// <summary>
+    /// Statistics for categorical attributes
+    /// </summary>
     public class CategoricalStatistics
     {
         object[] array_items;
