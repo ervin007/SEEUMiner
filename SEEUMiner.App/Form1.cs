@@ -40,6 +40,8 @@ namespace SEEUMiner.App
             //    MessageBox.Show(kv.Key.ToString() + " - " + kv.Value.ToString());
 
             //}
+
+            // test test test 
             
 
         }
