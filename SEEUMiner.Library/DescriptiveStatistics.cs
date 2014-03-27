@@ -76,7 +76,7 @@ namespace SEEUMiner.Library
             return STDev_P;
         }
         
-       
+        // nuk e bojna per lek PO PA LEK SE BOJNA
         //fk
         public double StandardDeviationS()
         {
