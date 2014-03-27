@@ -75,17 +75,7 @@ namespace SEEUMiner.Library
 
             return STDev_P;
         }
-<<<<<<< HEAD
-        //someone was here
-        //someone noticed this :P youre dead
-        //REMOVED FOR INAPROPRIATE LANGUAGE
 
-=======
-        
-        // nuk e bojna per lek PO PA LEK SE BOJNA
-        //fk
-        //kush o?
->>>>>>> 479e2be82a30f113dbb99207e8b7e3c64a08448b
         public double StandardDeviationS()
         {
             double mean = Average();
