@@ -6,7 +6,8 @@ using System.Text;
 namespace SEEUMiner.Library
 {
     /// <summary>
-    /// This class implements similarity measures
+    /// This class ....
+    /// This class similarity....
     /// </summary>
     public class Similarity
     {
