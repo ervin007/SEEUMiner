@@ -75,6 +75,7 @@ namespace SEEUMiner.Library
 
             return STDev_P;
         }
+        //someone was here
 
         public double StandardDeviationS()
         {
