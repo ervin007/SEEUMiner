@@ -40,6 +40,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CategoricalStatistics.cs" />
+    <Compile Include="DataTransformation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="DescriptiveStatistics.cs" />
     <Compile Include="Similarity.cs" />

@@ -45,5 +45,21 @@ namespace SEEUMiner.App
             
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            DataTransformation dt = new DataTransformation();
+            List<double> array_to_normalize = new List<double>();
+            foreach(string itm in lstNotNormalized.Items)
+            {
+                array_to_normalize.Add(Convert.ToDouble(itm));
+            }
+            
+         foreach (double itm in dt.ZScore(array_to_normalize.ToArray()))
+         {
+             lstNormalized.Items.Add(itm.ToString());
+         }
+
+        }
     }
 }
