@@ -21,21 +21,25 @@ namespace SEEUMiner.App
         {
             string[] array = txtItems.Text.Split(',');
 
-            //double[] dArray = Array.ConvertAll(array, Double.Parse);
+            double[] dArray = Array.ConvertAll(array, Double.Parse);
 
-            //DescriptiveStatistics s = new DescriptiveStatistics(dArray);
+            DescriptiveStatistics s = new DescriptiveStatistics(dArray);
 
-            //MessageBox.Show("Mesatarja: " + s.Average().ToString());
+            MessageBox.Show("Mesatarja: " + s.Average().ToString());
 
-            //MessageBox.Show("Median:" + s.Median().ToString());
+            MessageBox.Show("Median:" + s.Median().ToString());
 
-            CategoricalStatistics s = new CategoricalStatistics(array);
+            MessageBox.Show("STDEV_Population: " + s.StandardDeviationP().ToString());
+            MessageBox.Show("STDEV_Sample: " + s.StandardDeviationS().ToString());
 
-            foreach (KeyValuePair<object, int> kv in s.Frequency())
-            {
-                MessageBox.Show(kv.Key.ToString() + " - " + kv.Value.ToString());
 
-            }
+            //CategoricalStatistics s = new CategoricalStatistics(array);
+
+            //foreach (KeyValuePair<object, int> kv in s.Frequency())
+            //{
+            //    MessageBox.Show(kv.Key.ToString() + " - " + kv.Value.ToString());
+
+            //}
             
 
         }

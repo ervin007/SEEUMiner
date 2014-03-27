@@ -60,14 +60,34 @@ namespace SEEUMiner.Library
             return 0;
         }
 
+
+        
         public double StandardDeviationP()
         {
-            return 0;
+            double mean = Average();
+            double sum = 0.0d;
+            for (int i = 0; i < array_items.Length; i++)
+            {
+                sum = sum + Math.Pow(array_items[i] - mean, 2);
+            }
+
+            double STDev_P = Math.Sqrt(sum / array_items.Length);
+
+            return STDev_P;
         }
 
         public double StandardDeviationS()
         {
-            return 0;
+            double mean = Average();
+            double sum = 0.0d;
+            for (int i = 0; i < array_items.Length; i++)
+            {
+                sum = sum + Math.Pow(array_items[i] - mean, 2);
+            }
+
+            double STDev_S = Math.Sqrt(sum / array_items.Length - 1);
+
+            return STDev_S;
         }
 
         
