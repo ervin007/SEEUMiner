@@ -87,6 +87,9 @@ namespace SEEUMiner.Library
 
             double STDev_S = Math.Sqrt(sum / array_items.Length - 1);
 
+            if (Double.IsNaN(STDev_S))
+                return 0;
+
             return STDev_S;
         }
 
