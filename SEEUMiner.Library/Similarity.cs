@@ -5,10 +5,6 @@ using System.Text;
 
 namespace SEEUMiner.Library
 {
-    // u bom horrrrr
-    /// <summary>
-    /// This class ....
-    /// This class similarity....
     /// </summary>
     public class Similarity
     {
