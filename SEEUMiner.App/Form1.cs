@@ -42,8 +42,15 @@ namespace SEEUMiner.App
             //}
 
             // test test test 
-            
+            CategoricalStatistics cs = new CategoricalStatistics(dArray);
+           // MessageBox.Show(Convert.ToInt32( cs.CalculateMode()).ToString());
 
+
+            foreach (KeyValuePair<object, int> kv in cs.CalculateMode())
+            {
+               // MessageBox.Show("Mode: " + kv.Key.ToString() + "=" + kv.Value.ToString());
+                label1.Text = "Mode: " + kv.Key.ToString() + "=" + kv.Value.ToString();
+            }
         }
 
         private void button2_Click(object sender, EventArgs e)
