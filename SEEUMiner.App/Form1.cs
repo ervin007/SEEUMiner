@@ -68,5 +68,24 @@ namespace SEEUMiner.App
          }
 
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Dictionary<string, int> fd = new Dictionary<string, int>();
+            Dictionary<string, int> sd = new Dictionary<string, int>();
+
+            fd.Add("Visar", 2);
+            fd.Add("test", 2);
+            fd.Add("aaa", 2);
+            fd.Add("bbb", 2);
+
+            sd.Add("Visar", 2);
+            sd.Add("test", 3);
+            sd.Add("aaa", 1);
+            sd.Add("aba", 1);
+
+            Similarity s = new Similarity();
+            MessageBox.Show(s.Cosine(fd, sd).ToString());
+        }
     }
 }
