@@ -32,6 +32,28 @@ namespace SEEUMiner.Library
 
         public double[] DecimalScaling(double[] array_to_normalize)
         {
+            //This is a work in progress for now. I will return back to it...eventually...
+            //decimal some_variable = 2
+            //decimal base_scale = 1.0
+            //decimal scale_factor= 1
+            //decimal scale_factor_size = 3
+            //for ( int i=0 ; i<scale_factor_size; i++)
+            //{  scale_factor *= base_scale;}
+            //decimal result = some_variable * scale_factor 
+
+            //It took me a few day to write 7 lines of code but just 25 seconds to find the chess game.
+
+           // 8 ║♜ ♞ ♝ ♛ ♚ ♝ ♞ ♜
+           // 7 ║♟ ♟ ♟ ♟ ♟ ♟ ♟ ♟
+           // 6 ║… … … … … … … …
+           // 5 ║… … … … … … … …                Knight to C3! 
+           // 4 ║… … … … … … … …
+           // 3 ║… … ♘ … … … … …
+           // 2 ║♙ ♙ ♙ ♙ ♙ ♙ ♙ ♙
+           // 1 ║♖ …  ♗ ♕ ♔ ♗ ♘ ♖
+            // —╚═══════════════
+            // ——a  b  c  d  e  f  g  h
+                  
             return null;
         }
 
