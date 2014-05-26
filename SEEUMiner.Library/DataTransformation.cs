@@ -33,13 +33,18 @@ namespace SEEUMiner.Library
         public double[] DecimalScaling(double[] array_to_normalize)
         {
             //This is a work in progress for now. I will return back to it...eventually...
-            //decimal some_variable = 2
-            //decimal base_scale = 1.0
-            //decimal scale_factor= 1
-            //decimal scale_factor_size = 3
-            //for ( int i=0 ; i<scale_factor_size; i++)
-            //{  scale_factor *= base_scale;}
-            //decimal result = some_variable * scale_factor 
+            //some_variable is a sample number
+            decimal some_variable = 2;
+            //the scale of the decimal value
+            decimal base_scale = 1.0000m;
+            //the scale factor
+            decimal scale_factor= 1;
+            //the scale factor size
+            decimal scale_factor_size = 3;
+            //the scaling loop
+            for ( int i=0 ; i<scale_factor_size; i++)
+            {  scale_factor *= base_scale;}
+            decimal result = some_variable * scale_factor;
 
             //It took me a few day to write 7 lines of code but just 25 seconds to find the chess game.
 

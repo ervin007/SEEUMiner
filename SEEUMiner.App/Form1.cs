@@ -87,5 +87,10 @@ namespace SEEUMiner.App
             Similarity s = new Similarity();
             MessageBox.Show(s.Cosine(fd, sd).ToString());
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
