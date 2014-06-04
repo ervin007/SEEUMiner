@@ -57,7 +57,24 @@ namespace SEEUMiner.Library
 
         public double Percentile(int n)
         {
-            return 0;
+           
+        double x;
+	    double y;
+	    double vlera;
+
+	    cout << "Shkruaj numrin tend:" << endl; 
+	    cin >> x; 
+	    cout << "Shkruaje perqindjen qe deshiron:" <<endl;
+	    cin>> y;
+
+	    vlera = (x*y) / 100;
+
+	    cout << y << " perqind e numrit -> " << x << " eshte e barabarte me -> "
+		    << vlera <<endl;
+	    system("pause");
+
+	    return 0;
+
         }
 
 
